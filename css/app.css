@@ -1,0 +1,191 @@
+#header{
+    background-color: #337AB7;
+    text-transform: uppercase;
+}
+
+ .navbar-default .navbar-nav > .active{
+    color: white !important;
+    background-color: blue !important;
+   /* background: #d65c14 !important; */
+ }
+
+ .navbar-default .navbar-nav > .active > a,
+ .navbar-default .navbar-nav > .active > a:hover,
+ .navbar-default .navbar-nav > .active > a:link,
+ .navbar-default .navbar-nav > .active > a:active,
+ .navbar-default .navbar-nav > .active > a:visited,
+ .navbar-default .navbar-nav > .active > a:focus {
+    color: white !important;
+    background-color: blue !important;
+    border-bottom-style: solid; !important;
+    border-bottom-color: yellow !important;
+ }
+
+ .navbar-default .navbar-nav > li >  a,
+ .navbar-default .navbar-nav > li > a:hover,
+ .navbar-default .navbar-nav > li > a:link,
+ .navbar-default .navbar-nav > li > a:active,
+ .navbar-default .navbar-nav > li > a:visited,
+ .navbar-default .navbar-nav > li > a:focus  {
+    color: white !important;
+}
+
+.navbar {
+    margin-bottom:0px !important;
+    border-bottom:0px;
+}
+
+#header li .active{
+    background-color: blue !important;
+}
+
+#brand-icon{
+    padding-left: 80%;
+}
+
+#brand-icon > img {
+    max-height: 70px;
+}
+
+#home .jumbotron{
+    /*padding-top: 0px;*/
+    background-image: url('../images/mixing-desk.jpg');
+    border-left-width: 1px;
+    border-style: solid;
+    border-color: transparent;
+    color: white;
+    padding-top: 10%;
+    padding-bottom: 10%;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ #home h1 {
+    font-size: 35px;
+    line-height: 1;
+    letter-spacing: -1px;
+}
+
+#home .lead{
+    font-size: 16px !important;
+}
+
+#news{
+    margin-top: -100px;
+    margin-right: 15%;
+    margin-left: 15%;
+}
+
+.news{
+    background-color: white;
+}
+
+.news-title h4{
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.news-content{
+    text-align: justify;
+    font-size: 11px;
+}
+
+.link-read-more{
+    text-transform: uppercase;
+}
+
+.news-date{
+    text-align: right;
+}
+
+.row.vertical-divider {
+  overflow: hidden;
+}
+.row.vertical-divider > div[class^="col-"] {
+  text-align: center;
+  padding-bottom: 100px;
+  margin-bottom: -100px;
+  border-left: 1px solid yellow;
+  border-right: 1px solid yellow;
+}
+.row.vertical-divider div[class^="col-"]:first-child {
+  border-left: none;
+}
+.row.vertical-divider div[class^="col-"]:last-child {
+  border-right: none;
+}
+
+.row-fluid{
+    padding-bottom: 60px !important;
+}
+
+.section-header h1{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bolder;
+}
+
+.section-body{
+    padding-top: 15px;
+}
+
+#descriptions{
+    background-color: #337AB7;
+    padding-top: 40px;
+
+}
+
+ #descriptions .thumbnail{
+    background-color: #337AB7;
+    border: none;
+ }
+
+ #descriptions .thumbnail .caption{
+    color: white !important;
+    text-align: center;
+    font-size: 11px;
+}
+ #descriptions .thumbnail .caption h3{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.section-title{
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 21px;
+    padding-bottom: 20px;
+}
+
+.brands {
+    text-align: center;
+}
+
+.brands img{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.brands .odd{
+    background-color: #dcdcdc;
+}
+
+.brands .even{
+    background-color: #F9F4F4;
+}
+
+#div-to-signin{
+    background-color: #003366;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#div-to-signin #message{
+    text-transform: uppercase;
+    font-size: 21px;
+    font-weight: bold;
+    color: white;
+}
